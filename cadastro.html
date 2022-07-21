@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="./estilos/cadastro.css">
+</head>
+<body>
+    
+    <div >
+
+        <div >
+          <form >
+            <h3>Cadastrar</h3>
+
+            <div id="msgError"></div>
+            <div id="msgSuccess"></div>
+            
+
+            <div >
+                <label id="labelNome" for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="nome" >
+                
+            </div>
+
+            <div >
+                <label id="labelUsuario" for="usuario">Usuario</label>
+                <input type="text" id="usuario" placeholder="usuario" >
+              
+            </div>
+    
+            <div >
+                 <label id="labelSenha" for="senha">Senha</label>
+                 <input type="password" id="senha" placeholder="Senha">
+                 
+            </div>
+
+            <div >
+                <label id="labelConfirmeSenha" for="confirmeSenha">Confirme a Senha</label>
+                <input type="password" id="confirmeSenha" placeholder="Confirme a senha" >
+                
+                <a id="btn" onclick="cadastrar ()">Enviar</a>  
+   
+            </div>
+            
+            
+
+            <script src="./javaScript/validaCadastro.js"></script>
+</body>
+</html>

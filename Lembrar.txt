@@ -1,0 +1,7 @@
+   getElementById = pegar o documento com o Id
+
+    .value = pega o valor dele do campo requerido
+
+
+    querySelector = pega tanto id quanto pela classe
+    
