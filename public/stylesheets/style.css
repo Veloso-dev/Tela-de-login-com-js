@@ -149,3 +149,52 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
+#nome{
+    position: relative;
+    top: 25px;
+}
+
+#email{
+    position: relative;
+    top: 40px;
+}
+
+
+
+
+
+
+#msgError{
+    text-align: center;
+    color: #ff0000;
+    
+    padding: 8px;
+    border-radius: 4px;
+    position: relative;
+    top:35px;
+    
+    
+    
+
+}
+#msg-cad{
+    text-align: center;
+    color: #0d5e61;
+    
+    padding: 8px;
+    border-radius: 4px;
+    position: relative;
+    bottom:10px;
+}
+
+#msg-erro{
+    text-align: center;
+    color: #ff0000;
+    
+    padding: 8px;
+    border-radius: 4px;
+    position: relative;
+    bottom:10px;
+}
